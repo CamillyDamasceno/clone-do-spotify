@@ -1,3 +1,4 @@
+/* CONFIGURAÇÕES GERAIS */
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +9,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+/* SIDEBAR */
 .sidebar{
     position: fixed;
     left: 0;
@@ -70,12 +72,16 @@ body{
 .sidebar .policies ul li a:hover{
     text-decoration: underline;
 }
+/* FIM DO SIDEBAR */
 
+/* MAIN */
 .main-container{
     margin-left: 350px;
     margin-bottom: 100px;
 }
+/* FIM DO MAIN */
 
+/* TOPBAR */
 .topbar{
     display: flex;
     justify-content: space-between;
@@ -139,6 +145,9 @@ body{
     background-color: #f2f2f2;
 }
 
+/* FIM DO TOPBAR */
+
+/* PLAYLISTS */
 .spotify-playlists{
     padding: 20px 40px;
 }
@@ -216,7 +225,9 @@ body{
     margin: 70px 0px 0px;
     border-color: #636363;
 }
+/* FIM DAS PLAYLISTS */
 
+/* PREVIEW */
 .preview{
     position: fixed;
     bottom: 0;
@@ -252,3 +263,4 @@ body{
     border-radius: 40px;
     cursor: pointer;
 }
+/* FIM DO PREVIEW */
